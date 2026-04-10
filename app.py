@@ -489,4 +489,4 @@ def newpassword(data):
                 flash('password updated successfully')
                 return jsonify({"message":"ok"})
     return render_template('newpassword.html',data=data)
-app.run()
+app.run(port=8000)
